@@ -14,10 +14,11 @@ document.getElementById("login-btn").addEventListener("click", function() {
         alert("Logged in Successfully")
 
         // window.location.replace("/home.html");
-        window.location.assign("/home.html");
+        window.location.assign("home.html");
     } else {
         //3-2 true:::>> alert> return
         alert("Login Failed!!!");
         return;
     } 
+
 });
